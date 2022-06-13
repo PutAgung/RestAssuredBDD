@@ -3,5 +3,5 @@ Feature:
 
   Scenario: Check correct datatype
     Given I perform GET operation from post
-    When I perform GET for the post jokotest
+    When I perform GET for the post intest
     Then I should see the each parameter has correct datatype value coba
