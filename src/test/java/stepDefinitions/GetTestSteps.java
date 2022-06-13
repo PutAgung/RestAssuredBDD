@@ -34,8 +34,6 @@ public class GetTestSteps {
                 .get("https://api.staging.qoalaplus.com/quotation/v2/q/commercials/detail?code=CL-MC220413-9F3Y45ST")
             .then()
                 .statusCode(400);
-               // .body("userId",equalTo(1));
-
 
 
 //        JsonPath Jname = response.jsonPath();
